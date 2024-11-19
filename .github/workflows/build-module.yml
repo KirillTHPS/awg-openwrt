@@ -12,17 +12,17 @@ jobs:
     strategy:
       matrix:
         build_env:
-          - tag: "23.05.04"
+          - tag: "23.05.4"
             pkgarch: mips_24kc
             target: ramips
             subtarget: mt7620
             vermagic: "03004fec8e5585758dc5e4a8458f4e68-r1"
-          - tag: "23.05.04"
+          - tag: "23.05.4"
             pkgarch: mipsel_24kc
             target: ramips
             subtarget: mt7620
             vermagic: "03004fec8e5585758dc5e4a8458f4e68-r1"
-          - tag: "23.05.04"
+          - tag: "23.05.4"
             pkgarch: mipsel_24kc
             target: ramips
             subtarget: mt7620
